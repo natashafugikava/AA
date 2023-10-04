@@ -19,4 +19,4 @@ class Tamagochi:
   def set_idade(self, idade):
     self.idade = idade
 
-st.title('Jogo do bichinho virtual da :pink[Natasha]!')
+st.title('Jogo do bichinho virtual da :pink[Natasha]:!')
