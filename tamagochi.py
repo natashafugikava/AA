@@ -27,5 +27,5 @@ while not jogo:
   bicho = Tamagochi(nome)
   jogo=True
 
-print(bicho.nome)
+st.text(bicho.nome)
 
