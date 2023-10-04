@@ -25,3 +25,5 @@ while True:
   bicho = Tamagochi(nome)
   break
 
+print(bicho.nome)
+
