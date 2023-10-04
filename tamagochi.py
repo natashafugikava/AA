@@ -19,11 +19,13 @@ class Tamagochi:
   def set_idade(self, idade):
     self.idade = idade
 
+jogo=False
+
 st.title('Jogo do bichinho virtual da Natasha!')
-while True:
+while not jogo:
   nome = st.text_input('Escolha o nome do seu bichinho:')
   bicho = Tamagochi(nome)
-  break
+  jogo=True
 
 print(bicho.nome)
 
